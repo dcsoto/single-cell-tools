@@ -15,6 +15,8 @@ Work-in-progress list of my favorite tools for scRNA-seq and scATAC-seq data pro
   - [Multimodal analysis](#multimodal-analysis)
   - [Visualization](#visualization)
   - [Multimodal integration](#multimodal-integration)
+  - [GWAS analysis](#gwas-analysis)
+  - [scWGS analysis](#scwgs-analysis)
 - [Tool ecosystems](#tool-ecosystems)
 - [Other lists of single-cell tools](#other-lists-of-single-cell-tools)
 
@@ -101,13 +103,14 @@ Work-in-progress list of my favorite tools for scRNA-seq and scATAC-seq data pro
   - [GitHub](https://github.com/fmicompbio/monaLisa)
   - [Documentation](https://fmicompbio.github.io/monaLisa/articles/monaLisa.html) 
 
-### GWAS analyses
+### GWAS analysis
 - S-LDSC: Tests whether SNPs within functional genomic annotations are disproportionately enriched for trait heritability.
   - [GitHub](https://github.com/bulik/ldsc)
   - [Manuscript](https://www.nature.com/articles/ng.3404)
 - MAGMA: Gene-based tool that aggregates SNP-level GWAS signals up to the gene level to identify biological processes enriched for genetic associations.
   - [Website](https://cncr.nl/research/magma/)
   - [Manuscript](https://journals.plos.org/ploscompbiol/article?id=10.1371/journal.pcbi.1004219)
+  - [Tutorial](https://cloufield.github.io/GWASTutorial/09_Gene_based_analysis/)
 
 ### scWGS analysis
 - SCAN2: Genotyper for somatic SNVs in scWGS
