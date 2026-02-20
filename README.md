@@ -1,8 +1,24 @@
 # Single-Cell Multiomics Tools
 
-Work-in-progress list of tools for scRNA-seq and scATAC-seq data processing.
+Work-in-progress list of my favorite tools for scRNA-seq and scATAC-seq data processing.
 
-## My favorite tools
+## Table of Contents
+- [Individual tools](#individual-tools)
+  - [scRNA-seq preprocessing](#scrna-seq-preprocessing)
+  - [scRNA-seq processing](#scrna-seq-processing)
+  - [scRNA-seq batch correction](#scrna-seq-batch-correction)
+  - [scRNA-seq doublet detection](#scrna-seq-doublet-detection)
+  - [Trajectory / RNA Velocity](#trajectory--rna-velocity)
+  - [Cell type proportions](#cell-type-proportions)
+  - [scATAC-seq preprocessing](#scatac-seq-preprocessing)
+  - [scATAC-seq processing](#scatac-seq-processing)
+  - [Multimodal analysis](#multimodal-analysis)
+  - [Visualization](#visualization)
+- [Multimodal integration](#multimodal-integration)
+- [Tool ecosystems](#tool-ecosystems)
+- [Other lists of single-cell tools](#other-lists-of-single-cell-tools)
+
+## Individual tools
 
 ### scRNA-seq preprocessing
 - Cell Ranger: 10x alignment & quantification
@@ -47,7 +63,7 @@ Work-in-progress list of tools for scRNA-seq and scATAC-seq data processing.
 ### scATAC-seq preprocessing
 - [Cell Ranger ATAC](https://support.10xgenomics.com/)
 
-### scTAC-seq processing
+### scATAC-seq processing
 - Signac: Seurat companion for ATAC
   - [Website](https://stuartlab.org/signac/) 
 - SnapATAC2
@@ -78,7 +94,7 @@ Work-in-progress list of tools for scRNA-seq and scATAC-seq data processing.
   - [GitHub](https://github.com/aertslab/scenicplus)
   - [Documentation](https://scenicplus.readthedocs.io/en/latest/)
 - monaLisa: enrichment of TF motifs
-  - [Manuscrip](https://academic.oup.com/bioinformatics/article/38/9/2624/6535228)
+  - [Manuscript](https://academic.oup.com/bioinformatics/article/38/9/2624/6535228)
   - [GitHub](https://github.com/fmicompbio/monaLisa)
   - [Documentation](https://fmicompbio.github.io/monaLisa/articles/monaLisa.html) 
 
