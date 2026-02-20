@@ -4,19 +4,31 @@ Work-in-progress list of tools for scRNA-seq and scATAC-seq data processing.
 
 ## My favorite tools
 
-### Preprocessing & QC
-- [Cell Ranger](https://support.10xgenomics.com/) – 10x alignment & quantification
-- [STARsolo](https://github.com/alexdobin/STAR) – fast droplet-based alignment
-- [alevin-fry](https://github.com/COMBINE-lab/alevin-fry) – lightweight pseudoalignment
+### scRNA-seq preprocessing
+- Cell Ranger: 10x alignment & quantification
+  - [Website](https://support.10xgenomics.com/)
+- STARsolo: fast droplet-based alignment
+  - [GitHub](https://github.com/alexdobin/STAR)
 
-### Normalization & Integration
-- [Seurat](https://satijalab.org/seurat/) – R ecosystem, CCA/RPCA integration
-- [Scanpy](https://scanpy.readthedocs.io/) – Python ecosystem
-- [scVI](https://scvi-tools.org/) – deep generative model for integration
+### scRNA-seq processing 
+- Seurat: R ecosystem
+  - [Website](https://satijalab.org/seurat/)
+- Scanpy: Python ecosystem
+  - [Documentation](https://scanpy.readthedocs.io/)
+
+### scRNA-seq batch correction
+- Harmony
+- scVI
+
+### scRNA-seq doublet detection
+- DoubletFinder
+  - [GitHub](https://github.com/chris-mcginnis-ucsf/DoubletFinder)  
 
 ### Trajectory / RNA Velocity
-- [scVelo](https://scvelo.readthedocs.io/)
-- [Monocle3](https://cole-trapnell-lab.github.io/monocle3/)
+- scVelo
+  - [Documentation](https://scvelo.readthedocs.io/)
+- Monocle3
+  - [GitHub](https://cole-trapnell-lab.github.io/monocle3/)
 
 ### Cell type proportions
 - scCoda: identifies compositional changes (i.e. cell type proportions changes) in scRNA-seq datasets.
@@ -32,13 +44,16 @@ Work-in-progress list of tools for scRNA-seq and scATAC-seq data processing.
   - [GitHub](https://github.com/MarioniLab/miloR) 
   - [Tutorial](https://pertpy.readthedocs.io/en/stable/tutorials/notebooks/milo.html)
 
-### scATAC-seq Preprocessing
+### scATAC-seq preprocessing
 - [Cell Ranger ATAC](https://support.10xgenomics.com/)
 
-### scTAC-seq Peak Calling & Annotation
-- [SnapATAC2](https://github.com/kaizhang/SnapATAC2)
-- [ArchR](https://www.archrproject.com/)
-- [Signac](https://stuartlab.org/signac/) – Seurat companion for ATAC
+### scTAC-seq processing
+- Signac: Seurat companion for ATAC
+  - [Website](https://stuartlab.org/signac/) 
+- SnapATAC2
+  - [GitHub](https://github.com/kaizhang/SnapATAC2)
+- ArchR
+  - [Website](https://www.archrproject.com/)
 
 ## Multimodal integration
 - WNN (Seurat v4/v5)
@@ -76,7 +91,7 @@ Work-in-progress list of tools for scRNA-seq and scATAC-seq data processing.
   - [Manuscript](https://www.nature.com/articles/s41587-023-01733-8)
   - [GitHub](https://github.com/scverse)
   - [Website](https://scverse.org/)
-- scvi-tools: Python library for probabilistic modeling of single-cell data.
+- scvi-tools: Python library for probabilistic modeling of single-cell data. Includes scVI and MultiVI.
   - [Manuscript](https://www.nature.com/articles/s41587-021-01206-w)
   - [GitHub](https://github.com/scverse/scvi-tools)
   - [Documentation](https://docs.scvi-tools.org/en/stable/index.html)
