@@ -47,6 +47,9 @@ Work-in-progress list of my favorite tools for scRNA-seq and scATAC-seq data pro
   - [GitHub](https://cole-trapnell-lab.github.io/monocle3/)
 
 ### Cell type proportions
+- Speckle/Propeller
+  - [Manuscript](https://academic.oup.com/bioinformatics/article/38/20/4720/6675456)
+  - [GitHub](https://github.com/phipsonlab/speckle)
 - scCoda: identifies compositional changes (i.e. cell type proportions changes) in scRNA-seq datasets.
   - [Manuscript](https://www.nature.com/articles/s41467-021-27150-6)
   - [GitHub](https://github.com/theislab/scCODA)
