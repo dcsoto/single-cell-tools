@@ -102,8 +102,12 @@ Work-in-progress list of my favorite tools for scRNA-seq and scATAC-seq data pro
   - [Documentation](https://fmicompbio.github.io/monaLisa/articles/monaLisa.html) 
 
 ### GWAS analyses
-- S-LDSC: SNP heritability 
+- S-LDSC: Tests whether SNPs within functional genomic annotations are disproportionately enriched for trait heritability.
+  - [GitHub](https://github.com/bulik/ldsc)
+  - [Manuscript](https://www.nature.com/articles/ng.3404)
 - MAGMA: Gene-based tool that aggregates SNP-level GWAS signals up to the gene level to identify biological processes enriched for genetic associations.
+  - [Website](https://cncr.nl/research/magma/)
+  - [Manuscript](https://journals.plos.org/ploscompbiol/article?id=10.1371/journal.pcbi.1004219)
 
 ### scWGS analysis
 - SCAN2: Genotyper for somatic SNVs in scWGS
