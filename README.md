@@ -2,10 +2,7 @@
 
 Work-in-progress list of tools for scRNA-seq and scATAC-seq data processing.
 
-## Other lists of single-cell tools 
-- [Awesome Single Cell](https://github.com/seandavi/awesome-single-cell)
-
-## My favorites
+## My favorite tools
 
 ### Preprocessing & QC
 - [Cell Ranger](https://support.10xgenomics.com/) – 10x alignment & quantification
@@ -43,20 +40,24 @@ Work-in-progress list of tools for scRNA-seq and scATAC-seq data processing.
 - [ArchR](https://www.archrproject.com/)
 - [Signac](https://stuartlab.org/signac/) – Seurat companion for ATAC
 
-## Multimodal Integration
+## Multimodal integration
 - WNN (Seurat v4/v5)
 - MOFA+
   - [Manuscript](https://link.springer.com/article/10.1186/s13059-020-02015-1)
   - [GitHub](https://github.com/bioFAM/MOFA2)
   - [Documentation](https://biofam.github.io/MOFA2/)
-- [MultiVI](https://scvi-tools.org/)
+- MultiVI
   - [Manuscript](https://www.nature.com/articles/s41592-023-01909-9)
 - scGlue
   - [Manuscript](https://www.nature.com/articles/s41587-022-01284-4)
   - [GitHub](https://github.com/gao-lab/GLUE)
   - [Documentation](https://scglue.readthedocs.io/en/latest/)
+- Cobolt
+  - [Manuscript](https://link.springer.com/article/10.1186/s13059-021-02556-z)
+  - [GitHub](https://github.com/epurdom/cobolt)
+  - [Tutorial](https://github.com/epurdom/cobolt/blob/master/docs/tutorial.ipynb)  
 
-## Multimodal analysis
+### Multimodal analysis
 - SCENIC+: inference of enhancers, TFs and target to reconstruct gene regulatory networks (GRN)
   - [Manuscript](https://www.nature.com/articles/s41592-023-01938-4)
   - [GitHub](https://github.com/aertslab/scenicplus)
@@ -66,6 +67,20 @@ Work-in-progress list of tools for scRNA-seq and scATAC-seq data processing.
   - [GitHub](https://github.com/fmicompbio/monaLisa)
   - [Documentation](https://fmicompbio.github.io/monaLisa/articles/monaLisa.html) 
 
-## Visualization
+### Visualization
 - [cellxgene](https://chanzuckerberg.github.io/cellxgene/)
 - [UCSC Cell Browser](https://cells.ucsc.edu/)
+
+## Tool ecosystems 
+- scverse: includes anndata, scanpy, SnapATAC2, and scvi-tools among others.
+  - [Manuscript](https://www.nature.com/articles/s41587-023-01733-8)
+  - [GitHub](https://github.com/scverse)
+  - [Website](https://scverse.org/)
+- scvi-tools: Python library for probabilistic modeling of single-cell data.
+  - [Manuscript](https://www.nature.com/articles/s41587-021-01206-w)
+  - [GitHub](https://github.com/scverse/scvi-tools)
+  - [Documentation](https://docs.scvi-tools.org/en/stable/index.html)
+  - [Website](https://scvi-tools.org/)
+
+## Other lists of single-cell tools 
+- [Awesome Single Cell](https://github.com/seandavi/awesome-single-cell)
