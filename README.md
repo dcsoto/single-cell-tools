@@ -14,7 +14,7 @@ Work-in-progress list of my favorite tools for scRNA-seq and scATAC-seq data pro
   - [scATAC-seq processing](#scatac-seq-processing)
   - [Multimodal analysis](#multimodal-analysis)
   - [Visualization](#visualization)
-- [Multimodal integration](#multimodal-integration)
+  - [Multimodal integration](#multimodal-integration)
 - [Tool ecosystems](#tool-ecosystems)
 - [Other lists of single-cell tools](#other-lists-of-single-cell-tools)
 
