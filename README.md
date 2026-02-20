@@ -3,7 +3,7 @@
 Work-in-progress list of my favorite tools for scRNA-seq and scATAC-seq data processing.
 
 ## Table of Contents
-- [Individual tools](#individual-tools)
+- [Tools](#tools)
   - [scRNA-seq preprocessing](#scrna-seq-preprocessing)
   - [scRNA-seq processing](#scrna-seq-processing)
   - [scRNA-seq batch correction](#scrna-seq-batch-correction)
@@ -18,7 +18,7 @@ Work-in-progress list of my favorite tools for scRNA-seq and scATAC-seq data pro
 - [Tool ecosystems](#tool-ecosystems)
 - [Other lists of single-cell tools](#other-lists-of-single-cell-tools)
 
-## Individual tools
+## Tools
 
 ### scRNA-seq preprocessing
 - Cell Ranger: 10x alignment & quantification
@@ -71,7 +71,7 @@ Work-in-progress list of my favorite tools for scRNA-seq and scATAC-seq data pro
 - ArchR
   - [Website](https://www.archrproject.com/)
 
-## Multimodal integration
+### Multimodal integration
 - WNN (Seurat v4/v5)
 - MOFA+
   - [Manuscript](https://link.springer.com/article/10.1186/s13059-020-02015-1)
